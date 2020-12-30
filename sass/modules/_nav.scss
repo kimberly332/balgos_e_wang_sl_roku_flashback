@@ -36,6 +36,7 @@ body {
         background-color: #fff;
 
         li {
+            // background-color: #f4f4f4;
             a {
                 display: block;
                 padding: 20px 20px;
@@ -131,19 +132,24 @@ body {
   /* 48em = 768px */
   
   @media (min-width: 48em) {
-    .header li {
-      float: left;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
+    .header {
+        li {
+            float: left;
+            
+            a {
+                padding: 20px 30px; 
+            }
+        }
+
+        .menu-icon {
+            display: none;
+        }
+
+        .menu {
+            clear: none;
+            float: right;
+            max-height: none;
+        }
     }
   }
   

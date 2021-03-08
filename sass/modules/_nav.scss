@@ -93,10 +93,10 @@ body {
     background: white;
     display: block;
     height: 2px;
-    border-radius: 10px;
+    border-radius: 5px;
     position: relative;
     transition: background .2s ease-out;
-    width: 20px;
+    width: 24px;
   }
   
   .header .menu-icon .navicon:before,
@@ -112,12 +112,13 @@ body {
     width: 100%;
   }
   
+  // space between hamburger lines
   .header .menu-icon .navicon:before {
-    top: 5px;
+    top: 7px;
   }
   
   .header .menu-icon .navicon:after {
-    top: -5px;
+    top: -7px;
   }
   
   /* menu btn */
@@ -144,7 +145,7 @@ body {
     top: 0;
   }
   
-  /* 48em = 768px */
+  // main.html 48em = 768px
   @media (min-width: 48em) {
     .header {
         li {
@@ -153,8 +154,8 @@ body {
             a {
                 margin-top: 2.45px;
                 margin-bottom: 2.5px;
-                padding: 20px 20px;
-                padding-top: 1.6rem; 
+                // padding: 20px 20px;
+                // padding-top: 1.6rem; 
             }
         }
 

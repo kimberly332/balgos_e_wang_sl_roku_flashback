@@ -1,17 +1,15 @@
-// 887px
+// main.html 887px
 @media only screen and (max-width: 900px) {
   body {
 
     .grid-container {
 
-        .landing {
-
-        }
+      
     }
-}
+  }
 }
 
-/* 48em = 768px */
+// main.html 48em = 768px
 @media (min-width: 48em) {
     .header li {
       float: left;

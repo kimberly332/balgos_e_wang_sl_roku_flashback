@@ -49,6 +49,7 @@ img {
   background-color: #e50914;
   padding: 10px 15px;
   border-radius: 5px;
+  transition: 0.2s ease-in-out;
 }
 .landing-bg .grid-container header .sign-in li a:hover {
   background-color: rgba(229, 9, 20, 0.7);
@@ -82,6 +83,7 @@ img {
   background-color: #e50914;
   padding: 15px 20px;
   border-radius: 5px;
+  transition: 0.2s ease-in-out;
 }
 .landing-bg .grid-container .welcome-message a:hover {
   background-color: rgba(229, 9, 20, 0.7);

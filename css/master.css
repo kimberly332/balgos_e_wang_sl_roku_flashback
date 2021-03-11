@@ -242,7 +242,7 @@ a {
 .login-bg .grid-container h3 {
   grid-column: 3/5;
   grid-row: 1/2;
-  padding: 10% 25%;
+  padding: 10% 20%;
 }
 .login-bg .grid-container div {
   grid-column: 3/5;
@@ -355,7 +355,7 @@ a {
 .signup-bg .grid-container h3 {
   grid-column: 3/5;
   grid-row: 1/2;
-  padding: 10% 25%;
+  padding: 10% 20%;
 }
 .signup-bg .grid-container div {
   grid-column: 3/5;
@@ -468,7 +468,7 @@ a {
 .profile-bg .grid-container h3 {
   grid-column: 3/5;
   grid-row: 1/2;
-  padding: 10% 25%;
+  padding: 10% 20%;
 }
 .profile-bg .grid-container div {
   grid-column: 1/7;
@@ -511,6 +511,8 @@ a {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  margin-top: 10%;
+  margin-bottom: 48%;
 }
 .profile-bg .grid-container .manage-profile-btn:hover {
   background-color: rgba(229, 9, 20, 0.7);
@@ -539,26 +541,7 @@ body .grid-container .landing {
 }
 body .grid-container .landing img {
   width: 100%;
-  object-fit: contain;
-}
-body .grid-container .landing div {
-  display: inline-block;
-  text-align: center;
-  align-items: center;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 32.5%;
-}
-body .grid-container .landing div i {
-  font-size: 2em;
-  margin-top: 3%;
-  padding-bottom: 4%;
-}
-body .grid-container .landing div p a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
+  height: 350px;
 }
 
 body .grid-container .copyright {
@@ -658,6 +641,7 @@ body .grid-container .copyright {
   .profile-bg .grid-container .manage-profile-btn {
     grid-column: 3/5;
     grid-row: 3/4;
+    margin: 0 5%;
   }
 }
 @media only screen and (max-width: 992px) {

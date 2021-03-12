@@ -1,8 +1,8 @@
+<img src="images/logo.svg" alt=logo width="200">
+
 # Roku Flashback
 
 Watch Roku Flashback movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.
-
-<img src="images/logo.svg" alt=logo width="200">
 
 ## Description
 

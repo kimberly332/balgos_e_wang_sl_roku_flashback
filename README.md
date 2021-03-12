@@ -1,5 +1,3 @@
-![header image](/images/icons/rokuSymbol.svg "LoveChat")
-
 # Roku Flashback
 
 Watch Roku Flashback movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.

@@ -1,17 +1,18 @@
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    // font-family: 'Cardo', serif;
+    // background-color: #f4f4f4;
   }
   
   a {
-    color: rgb(102, 50, 143);
+    // color: rgb(102, 50, 143);
+    color: white;
   }
   
   /* header */
-  
   .header {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -23,9 +24,15 @@ body {
         font-size: 2em;
         font-weight: bold;
         padding: 10px 20px;
-        margin-top: 5px;
+        padding-top: 1rem;
         text-decoration: none;
-        color: rgb(102, 50, 143);
+        // color: rgb(102, 50, 143);
+        color: #e50914;
+    }
+
+    .logo:hover {
+      color: rgba(229, 9, 20, 0.7);
+      transition: 0.2s ease-in-out;
     }
 
     ul {
@@ -33,19 +40,23 @@ body {
         padding: 0;
         list-style: none;
         overflow: hidden;
-        background-color: #fff;
+        // background-color: #fff;
 
         li {
             // background-color: #f4f4f4;
             a {
                 display: block;
-                padding: 20px 20px;
-                border-right: 1px solid #f4f4f4;
+                padding: 20px 22px;
+                padding-top: 1.2rem;
+                border-right: 1px solid rgba(244, 244, 244, 0.2);
                 text-decoration: none;
+                transition: 0.2s ease-in-out;
             }
 
             a:hover {
-                background-color: #f4f4f4;
+                // color: white;
+                // background-color: rgba(102, 50, 143, 0.9);
+                background-color: rgba(229, 9, 20, 0.9);
             }
         }
     }
@@ -78,17 +89,21 @@ body {
   }
   
   .header .menu-icon .navicon {
-    background: rgb(102, 50, 143);
+    // background: rgb(102, 50, 143);
+    background: white;
     display: block;
     height: 2px;
+    border-radius: 5px;
     position: relative;
     transition: background .2s ease-out;
-    width: 18px;
+    width: 24px;
   }
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: rgb(102, 50, 143);
+    // background: rgb(102, 50, 143);
+    background: white;
+    border-radius: 10px;
     content: '';
     display: block;
     height: 100%;
@@ -97,12 +112,13 @@ body {
     width: 100%;
   }
   
+  // space between hamburger lines
   .header .menu-icon .navicon:before {
-    top: 5px;
+    top: 7px;
   }
   
   .header .menu-icon .navicon:after {
-    top: -5px;
+    top: -7px;
   }
   
   /* menu btn */
@@ -129,15 +145,17 @@ body {
     top: 0;
   }
   
-  /* 48em = 768px */
-  
+  // main.html 48em = 768px
   @media (min-width: 48em) {
     .header {
         li {
             float: left;
             
             a {
-                padding: 20px 30px; 
+                margin-top: 2.45px;
+                margin-bottom: 2.5px;
+                // padding: 20px 20px;
+                // padding-top: 1.6rem; 
             }
         }
 

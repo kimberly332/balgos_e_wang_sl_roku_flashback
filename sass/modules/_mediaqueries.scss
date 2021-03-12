@@ -1,11 +1,22 @@
-/* 48em = 768px */
-  
+// main.html 992px
+@media only screen and (max-width: 992px) {
+  body {
+
+    .grid-container {
+      
+      
+    }
+  }
+}
+
+// main.html 768px
 @media (min-width: 48em) {
     .header li {
       float: left;
     }
     .header li a {
-      padding: 20px 30px;
+      // padding: 20px 20px;
+      // padding-top: 1.6rem; 
     }
     .header .menu {
       clear: none;
@@ -15,4 +26,61 @@
     .header .menu-icon {
       display: none;
     }
+}
+
+// login.html 1200px
+@media only screen and (max-width: 1200px) {
+  .login-bg {
+
+    .grid-container {
+
+        img {
+          padding: 10% 20%;
+        }
+    }
   }
+}
+
+// login.html 992px
+@media only screen and (max-width: 992px) {
+  .login-bg {
+
+    .grid-container {
+        grid-template-rows: repeat(6, 1fr);
+
+        img {
+          grid-column: 2/6;
+          grid-row: 1/2;
+          padding: 10% 25%;
+        }
+
+      div {
+        grid-column: 2/6;
+        grid-row: 2/6;
+      }
+    }
+  }
+}
+
+// login.html 768px
+@media only screen and (max-width: 768px) {
+  .login-bg {
+    
+    .grid-container {
+      grid-template-columns: 1fr;
+
+      img {
+        grid-column: 2/6;
+        grid-row: 1/2;
+        padding: 7% 25%;
+      }
+
+      div {
+
+        form {
+          margin: 5%;
+        }
+      } 
+    }
+  }
+}

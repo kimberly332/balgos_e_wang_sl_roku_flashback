@@ -10,9 +10,37 @@ This project is a simulation website that is similar to Netflix. The user should
 
 [Live Prototype](https://xd.adobe.com/view/7ed57ab0-b62b-4b64-864b-24697dfb9ca3-2b86/)
 
+## How to Run
+
+### Method 1: Wamp / Mamp
+
+Import database first.
+
+Login email: `test@gmail.com`
+
+Password: `test`
+
+### Method 2: Docker
+
+Login email: `test@gmail.com`
+
+Password: `test`
+
+```
+docker-compose up
+
+docker-compose down
+```
+
+## Design & Development Notes
+[Des Concept](https://docs.google.com/document/d/1jPZc9u7oIh5DmTiK0pBw7ZhSFcwpA0MC50Vo3vsWNXM/edit?usp=sharing)
+
+[Dev Road Map](https://docs.google.com/document/d/1oaN2rdKpMfOPBbspM_GIuxoG2myEirmPCmX2ECBMGTI/edit?usp=sharing)
+
+
 ## Built With
 
-HTML CSS JavaScript
+HTML CSS SASS JavaScript Vue.js Socket.io Node.js Express.js
 
 ## Authors
 

@@ -813,6 +813,7 @@ body footer {
   grid-row: 8/9;
   color: white;
   height: 150px;
+  align-self: end;
   text-align: center;
   align-items: center;
 }
@@ -846,6 +847,28 @@ body footer p {
   font-weight: lighter;
 }
 
+@media only screen and (max-width: 992px) {
+  body footer h3 {
+    margin-top: 2%;
+  }
+  body footer h3 img {
+    width: 15%;
+  }
+  body footer p {
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body footer h3 {
+    margin-top: 3%;
+  }
+  body footer h3 img {
+    width: 20%;
+  }
+  body footer p {
+    margin-top: 3%;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .login-bg .grid-container h3 {
     padding: 10% 20%;

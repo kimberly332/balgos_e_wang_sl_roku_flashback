@@ -1,3 +1,5 @@
+![header image](/images/icons/rokuSymbol.svg "LoveChat")
+
 # Roku Flashback
 
 Watch Roku Flashback movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.
@@ -12,13 +14,13 @@ HTML CSS JavaScript
 
 ## Authors
 
-* **Elaine Balgos** - (https://github.com/ElaineBalgos)
-* **Shan-Li Wang** - (https://github.com/kimberly332)
+- **Elaine Balgos** - (https://github.com/ElaineBalgos)
+- **Shan-Li Wang** - (https://github.com/kimberly332)
 
 ## Future Plane
 
-* Probably add a page that shows some information for a specific movie, ex: movie name, year that has been stream, the director’s name, main actors and actress, short introduction and some screenshot from the movies.
-* Add a search filter, the user can search a movie by movie’s name, years or categories.
+- Probably add a page that shows some information for a specific movie, ex: movie name, year that has been stream, the director’s name, main actors and actress, short introduction and some screenshot from the movies.
+- Add a search filter, the user can search a movie by movie’s name, years or categories.
 
 ### License
 

@@ -6,6 +6,10 @@
     background-size: cover;
 
     .grid-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0px 0px;
         height: 100vh;
 
         header {

@@ -1,0 +1,229 @@
+// home.html 992px
+@media only screen and (max-width: 992px) {
+  body {
+
+    .grid-container {
+      
+      
+    }
+  }
+}
+
+// home.html 768px
+@media (min-width: 768px) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      // padding: 20px 20px;
+      // padding-top: 1.6rem; 
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+}
+
+// login.html 1200px
+@media only screen and (max-width: 1200px) {
+  .login-bg {
+
+    .grid-container {
+
+        h3 {
+          padding: 10% 20%;
+        }
+    }
+  }
+}
+
+// login.html 992px
+@media only screen and (max-width: 992px) {
+  .login-bg {
+
+    .grid-container {
+        grid-template-rows: repeat(6, 1fr);
+
+        h3 {
+          grid-column: 2/6;
+          grid-row: 1/2;
+          padding: 10% 25%;
+        }
+
+      div {
+        grid-column: 2/6;
+        grid-row: 2/6;
+      }
+    }
+  }
+}
+
+// login.html 768px
+@media only screen and (max-width: 768px) {
+  .login-bg {
+    
+    .grid-container {
+      grid-template-columns: 1fr;
+
+      h3 {
+        grid-column: 2/6;
+        grid-row: 1/2;
+        padding: 7% 25%;
+      }
+
+      div {
+
+        form {
+          margin: 5%;
+        }
+      } 
+    }
+  }
+}
+
+// signup.html 1200px
+@media only screen and (max-width: 1200px) {
+  .signup-bg {
+
+    .grid-container {
+
+        h3 {
+          padding: 10% 20%;
+        }
+    }
+  }
+}
+
+// signup.html 992px
+@media only screen and (max-width: 992px) {
+  .signup-bg {
+
+    .grid-container {
+        grid-template-rows: repeat(6, 1fr);
+
+        h3 {
+          grid-column: 2/6;
+          grid-row: 1/2;
+          padding: 10% 25%;
+        }
+
+      div {
+        grid-column: 2/6;
+        grid-row: 2/6;
+      }
+    }
+  }
+}
+
+// signup.html 768px
+@media only screen and (max-width: 768px) {
+  .signup-bg {
+    
+    .grid-container {
+      grid-template-columns: 1fr;
+
+      h3 {
+        grid-column: 2/6;
+        grid-row: 1/2;
+        padding: 7% 25%;
+      }
+
+      div {
+
+        form {
+          margin: 5%;
+        }
+      } 
+    }
+  }
+}
+
+// profile.html 1200px
+@media only screen and (max-width: 1200px) {
+  .profile-bg {
+
+    .grid-container {
+
+      h3 {
+        padding: 10% 20%;
+      }
+
+      .manage-profile-btn {
+        grid-column: 3/5;
+        grid-row: 3/4;
+        margin: 0 5%;
+      }
+    }
+  }
+}
+
+// profile.html 992px
+@media only screen and (max-width: 992px) {
+  .profile-bg {
+
+    .grid-container {
+      grid-template-rows: repeat(6, 1fr);
+
+        h3 {
+          grid-column: 2/6;
+          grid-row: 1/2;
+          padding: 10% 25%;
+        }
+
+        div {
+
+          h2 {
+            margin-bottom: 6%;
+          }
+          
+          div {
+            margin: 0 3%;
+          }
+        }
+
+        .manage-profile-btn {
+          grid-column: 2/6;
+          grid-row: 4/5;
+          margin: 0 5%;
+        }
+      }
+    }
+  }
+
+// profile.html 768px
+@media only screen and (max-width: 768px) {
+  .profile-bg {
+    
+    .grid-container {
+      grid-template-columns: 1fr;
+
+      h3 {
+        grid-column: 2/6;
+        grid-row: 1/2;
+        padding: 7% 25%;
+      }
+
+      div {
+
+        h2 {
+          margin-top: 5%;
+          margin-bottom: 10%;
+        }
+        
+        div {
+          margin: 0 5%;
+        }
+      }
+
+      .manage-profile-btn {
+        grid-column: 1/6;
+        grid-row: 4/5;
+        margin: 0 5%;
+      }
+    }
+  }
+}

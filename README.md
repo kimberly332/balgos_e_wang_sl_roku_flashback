@@ -2,11 +2,13 @@
 
 Watch Roku Flashback movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.
 
+<img src="images/logo.svg" alt=logo width="200">
+
 ## Description
 
 This project is a simulation website that is similar to Netflix. The user should be able to login, filter and select a movie, tv show, or audio based on user profile (adult or kids). Some restrictions will be apply to some content based on age. The UX/UI should update based on the user (children/adults), render the apporopriate theme on login.
 
-## Live Prototype
+[Live Prototype](https://xd.adobe.com/view/7ed57ab0-b62b-4b64-864b-24697dfb9ca3-2b86/)
 
 ## Built With
 

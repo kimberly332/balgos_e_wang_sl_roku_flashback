@@ -657,14 +657,9 @@ body .grid-container-index .display-popular h3 {
   margin-bottom: 0.5%;
 }
 body .grid-container-index .display-popular a img {
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 1% 1.5%;
   transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 1px 1px 12px 5px #000;
-  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 1px 1px 12px 5px #000;
-  /* Firefox 3.5 - 3.6 */
-  box-shadow: 1px 1px 12px 5px #000;
 }
 body .grid-container-index .display-popular a img:hover {
   transform: scale(1.1);
@@ -684,14 +679,9 @@ body .grid-container-index .display-new-releases h3 {
   margin-bottom: 0.5%;
 }
 body .grid-container-index .display-new-releases a img {
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 1% 1.5%;
   transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 1px 1px 12px 5px #000;
-  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 1px 1px 12px 5px #000;
-  /* Firefox 3.5 - 3.6 */
-  box-shadow: 1px 1px 12px 5px #000;
 }
 body .grid-container-index .display-new-releases a img:hover {
   transform: scale(1.1);
@@ -711,14 +701,9 @@ body .grid-container-index .display-1990 h3 {
   margin-bottom: 0.5%;
 }
 body .grid-container-index .display-1990 a img {
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 1% 1.5%;
   transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 1px 1px 12px 5px #000;
-  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 1px 1px 12px 5px #000;
-  /* Firefox 3.5 - 3.6 */
-  box-shadow: 1px 1px 12px 5px #000;
 }
 body .grid-container-index .display-1990 a img:hover {
   transform: scale(1.1);
@@ -738,14 +723,9 @@ body .grid-container-index .display-1980 h3 {
   margin-bottom: 0.5%;
 }
 body .grid-container-index .display-1980 a img {
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 1% 1.5%;
   transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 1px 1px 12px 5px #000;
-  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 1px 1px 12px 5px #000;
-  /* Firefox 3.5 - 3.6 */
-  box-shadow: 1px 1px 12px 5px #000;
 }
 body .grid-container-index .display-1980 a img:hover {
   transform: scale(1.1);
@@ -765,14 +745,9 @@ body .grid-container-index .display-1970 h3 {
   margin-bottom: 0.5%;
 }
 body .grid-container-index .display-1970 a img {
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 1% 1.5%;
   transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 1px 1px 12px 5px #000;
-  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 1px 1px 12px 5px #000;
-  /* Firefox 3.5 - 3.6 */
-  box-shadow: 1px 1px 12px 5px #000;
 }
 body .grid-container-index .display-1970 a img:hover {
   transform: scale(1.1);

@@ -32,7 +32,7 @@ confirm_logged_in();
             <ul class="menu">
               <li><a href="../kids.html">Kids</a></li>
               <li><a href="#">Movies</a></li>
-              <li><a href="#">Account</a></li>
+              <li><a href="account.html">Account</a></li>
               <li><a href="admin_logout.php">Sign Out</a></li>
             </ul>
         </header>

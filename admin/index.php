@@ -30,10 +30,9 @@ confirm_logged_in();
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-              <li><a href="#">Kids</a></li>
+              <li><a href="../kids.html">Kids</a></li>
               <li><a href="#">Movies</a></li>
-              <li><a href="#">TV Show</a></li>
-              <li><a href="#">Account</a></li>
+              <li><a href="account.html">Account</a></li>
               <li><a href="admin_logout.php">Sign Out</a></li>
             </ul>
         </header>

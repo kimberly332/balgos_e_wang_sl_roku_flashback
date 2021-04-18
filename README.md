@@ -20,11 +20,11 @@ This project is a simulation website that is similar to Netflix. The user should
 
 :one: `database/sb_flashback.sql` -> import database -> change database credentials in `config/userConfig.js`
 
-:two: Download audios and videos from https://drive.google.com/drive/folders/1lBXmhJgyTZY2NklaCRGZoO0nvKCRqys0
+:two: Download audios and videos from https://drive.google.com/drive/folders/1lBXmhJgyTZY2NklaCRGZoO0nvKCRqys0 
 
 -> Put the `media` folder under `client/public` :exclamation:
 
-:three: Run `npm run start-dev` -> Go to `localhost:5051`
+:three: Run `npm install` and `npm run start` -> Go to `localhost:5051`
 ```
 |- client
     |- public

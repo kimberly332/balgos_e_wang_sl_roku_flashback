@@ -1,0 +1,123 @@
+body {
+    
+    .grid-container {
+
+        .copyright {
+            width: 100%;
+            color: white;
+            font-size: 14px;
+            font-weight: lighter;
+            text-align: center;
+            align-items: center;
+            position: absolute;
+            bottom: 15px;
+        }
+    }
+
+    footer {
+        background-color: black;
+        grid-column: 1/7;
+        grid-row: 8/9;
+        color: white;
+        height: 150px;
+        align-self: end;
+
+        text-align: center;
+        align-items: center;
+
+        h3 {
+            margin-top: 1.5%;
+
+            img {
+                width: 10%;
+            }
+        }
+
+        ul {
+            margin-top: 1.5%;
+
+            li {
+                display: inline;
+                margin: 2%;
+                font-size: 14px;
+                font-weight: lighter;
+
+                a {
+                    text-decoration: none;
+                    transition: 0.2s ease-in-out;
+                }
+
+                a:hover {
+                    color: #e50914;
+                }
+            }
+        }
+
+        p {
+            margin-top: 1.5%;
+            width: 100%;
+            color: white;
+            font-size: 14px;
+            font-weight: lighter;
+        }
+    }
+
+    .kids-footer {
+        background-color: #aa96da;
+
+        ul {
+
+            li {
+
+                a:hover {
+                    color: #ebd9ca;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    body {
+
+        footer {
+            
+            h3 {
+                margin-top: 2%;
+
+                img {
+                    width: 15%;
+                }
+            }
+
+            p {
+                margin-top: 2%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+
+        footer {
+            
+            h3 {
+                margin-top: 3%;
+
+                img {
+                    width: 20%;
+                }
+            }
+
+            p {
+                margin-top: 3%;
+            }
+        }
+    }
+}
+
+
+  

@@ -1,0 +1,130 @@
+body {
+
+    .grid-container-index {
+
+        .filter {
+            z-index: 3;
+            grid-column: 1/6;
+            grid-row: 1/2;
+            align-self: end;
+            margin-bottom: -15px;
+
+            ul {
+                // display: inline;
+                margin: 25px 0 0 60px;
+
+                li {
+                    display: inline;
+                    border: 1px solid white;
+                    padding: 7px 10px;
+                    margin: 5px;
+                    transition: ease-in-out .2s;
+                    opacity: 0.6;
+                    
+                    a {
+                        cursor: pointer;
+                        text-decoration: none;
+                        // color: rgba(255, 255, 255, 0.8);
+                        font-weight: 300;
+                    }
+                }
+
+                li:hover {
+                    opacity: 1;
+                    background-color: #e50914;
+                    border-color: #e50914;
+                }
+
+                .active {
+                    opacity: 1;
+                    background-color: #e50914;
+                    border-color: #e50914;
+                }
+            }
+        }
+
+        .mobile-filter {
+            display: none;
+        }
+
+        .kids-filter {
+            
+            ul {
+
+                li {
+                    border: 1px solid #aa96da;
+                    background-color: #aa96da;
+                    // opacity: 1;
+                }
+
+                li:hover {
+                    background-color: #f28953;
+                    border-color: #f28953;
+                }
+
+                .active {
+                    background-color: #f28953;
+                    border-color: #f28953;
+                }
+            }
+        }
+    }
+} 
+
+// index.php 992px
+@media only screen and (max-width: 992px) {
+    body {
+
+        .grid-container-index {
+
+            .filter {
+
+                display: none;
+            }
+
+            .mobile-filter {
+                display: inline;
+                white-space: nowrap;
+                z-index: 3;
+                grid-column: 2/6;
+                grid-row: 1/2;
+                align-self: end;
+
+                select {
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 300;
+                    appearance: none;
+                    outline: none;
+                    border: 1px solid white;
+                    background: none;
+                    color: white;
+                    padding: 7px 10px;
+                    margin: 5px;
+                    transition: ease-in-out .2s;
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+            }
+
+            .kids-mobile-filter {
+
+                select {
+                    border: 1px solid #aa96da;
+                    background-color: #aa96da;
+                    color: white;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+} 
+
+// index.php 768px
+// @media only screen and (max-width: 768px) {
+//     body {
+
+//         .grid-container-index {
+
+//         }
+//     }
+// } 

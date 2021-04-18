@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+.disable-edit {
+    pointer-events: none;
+}
+
+.allow-edit {
+    pointer-events: initial;
+}
+
+.kids {
+    background-color: #ebd9ca;
+}
+
+.red {
+    color: #e50914;;
+}
